@@ -1,0 +1,33 @@
+.left-align {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+#frame{
+    border: 10px solid #d0d0ff;
+    width: fit-content;
+    padding: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+#lastrow{
+    border-top: 2px solid black;
+    font-weight: bold;
+}
+
+th, td{
+    padding-right: 12px;
+}
+
+.hover:hover{
+    color: #cc6600;
+}
+

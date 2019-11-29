@@ -1,0 +1,81 @@
+#hidden{
+    display: none;
+}
+
+.error{
+    color: red;
+}
+
+.errorFound{
+    background-color: red;
+}
+
+.success{
+    color: green;
+}
+
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+#container1 {
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2 {
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: fit-content;
+    border: 8px solid black;
+    border-radius: 25px;
+    background-color: rgb(252, 240, 230);
+}
+
+fieldset{
+    border: none;
+    display: flex;
+}
+
+input {
+    height: 25px;
+    width: 315px;
+    border-color: darkgrey;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+button {
+    height: 25px;
+    width: 315px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+#message {
+    height: 20px;
+}
+

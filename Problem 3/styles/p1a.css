@@ -1,0 +1,43 @@
+.left-align {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+#heading {
+    background-color: #687290;
+    color: white;
+}
+
+#lastrow {
+    display: none;
+}
+
+.hover:hover{
+    color: #cc6600;
+}
+
+tr:nth-child(even) {
+    background-color: #dfe1e8;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeff4;
+}
+
+th, td {
+    border-bottom: 1px solid white;
+}
+
+th, td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
